@@ -1,0 +1,6 @@
+.DS_Store
+
+# Sphinx documentation
+build/
+
+source/webdevbook.sublime-workspace
