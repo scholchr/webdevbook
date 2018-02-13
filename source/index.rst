@@ -1,7 +1,11 @@
 .. You can adapt this file completely to your liking, but it should at least contain the root `toctree` directive.
 
+=====
 Start
 =====
+
+.. warning::
+    Work in Progress
 
 .. literalinclude:: ../changelog.md
     :language: md
@@ -10,10 +14,6 @@ Start
 .. only:: builder_html
 
    See :download:`full changelog: <../changelog.md>`
-
-
-.. warning::
-    Work in Progress
 
 
 .. toctree::
