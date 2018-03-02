@@ -1,15 +1,16 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokumentiert.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+Das Format basiert auf [Keep a Changelog](http://keepachangelog.com/de/1.0.0/)
+und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/de/spec/v2.0.0.html).
 
 ## [Unreleased]
- - People can see what changes they might expect in upcoming releases here
+ - Zukünftige Änderungen können hier eingetragen werden
 
-## 0.0.1 - 2018-02-28
+## 0.0.1 - 2018-03-02
 ### Added
 - JavaScript
 -- Promise
 -- Oberservable
 - Angular Basics
+-- Service Worker im Unterverzeichnis
