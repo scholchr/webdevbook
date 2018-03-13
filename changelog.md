@@ -7,10 +7,12 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 ## [Unreleased]
  - Zukünftige Änderungen können hier eingetragen werden
 
-## 0.0.1 - 2018-03-02
+## 0.0.1 - 2018-03-13
 ### Added
 - JavaScript
 -- Promise
 -- Oberservable
 - Angular Basics
 -- Service Worker im Unterverzeichnis
+- CSS
+-- Properties vergleichen
