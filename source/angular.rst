@@ -20,3 +20,8 @@ ServiceWorker
  - **Lösungsansatz**: In ``src\app.module.ts`` dem ServiceWorker explizit das Unterverzeichnis angeben: ``ServiceWorkerModule.register('/webwib/ngsw-worker.js', ...``.
 
  - .. warning:: Bei einer falschen Pfadangabe erscheint die Fehlermeldung: Uncaught (in promise) DOMException: Failed to register a ServiceWorker: The script has an unsupported MIME type ('text/html').
+
+Sourcemaps
+==========
+
+``ng serve --sourcemaps``
