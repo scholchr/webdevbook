@@ -13,6 +13,7 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 -- Promise
 -- Oberservable
 - Angular Basics
+-- Component Collections
 -- Service Worker im Unterverzeichnis
 - CSS
 -- Properties vergleichen
