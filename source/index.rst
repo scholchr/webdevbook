@@ -24,3 +24,4 @@ Start
    javascript
    angular
    css
+   grails
