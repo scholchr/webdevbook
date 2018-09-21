@@ -7,7 +7,7 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 ## [Unreleased]
  - Zukünftige Änderungen können hier eingetragen werden
 
-## 0.0.1 - 2018-03-13
+## 0.0.1 - 2018-09-21
 ### Added
 - JavaScript
 -- Promise
