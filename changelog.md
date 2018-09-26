@@ -7,13 +7,18 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 ## [Unreleased]
  - Zukünftige Änderungen können hier eingetragen werden
 
+## 0.0.2 - 2018-09-21
+### Added
+- Grails
+  - URL Mappings
+
 ## 0.0.1 - 2018-09-21
 ### Added
 - JavaScript
--- Promise
--- Oberservable
+  - Promise
+  - Oberservable
 - Angular Basics
--- Component Collections
--- Service Worker im Unterverzeichnis
+  - Component Collections
+  - Service Worker im Unterverzeichnis
 - CSS
--- Properties vergleichen
+  - Properties vergleichen
