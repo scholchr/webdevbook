@@ -3,4 +3,6 @@
 # Sphinx documentation
 build/
 
+# Editor
 source/webdevbook.sublime-workspace
+.vscode/
