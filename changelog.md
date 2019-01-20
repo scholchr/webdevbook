@@ -4,6 +4,10 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](http://keepachangelog.com/de/1.0.0/)
 und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/de/spec/v2.0.0.html).
 
+## [0.1.4] - 2019-01-20
+### Changed
+- Sphinx auf Version 1.8.3 aktualisiert
+
 ## [0.1.3] - 2018-12-03
 ### Added
 - sphinx-markdown-tables Erweiterung hinzugefügt
