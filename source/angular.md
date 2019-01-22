@@ -33,6 +33,29 @@ Veraltete Pakete anzeigen `npm outdated -l`
 * Bei einer falschen Pfadangabe erscheint die Fehlermeldung: *Uncaught (in promise) DOMException: Failed to register a 
 ServiceWorker: The script has an unsupported MIME type ('text/html').*
 
+## Testing
+
+### Grundaufbau
+```
+describe("A suite", function() {
+  it("contains spec with an expectation", function() {
+    expect(true).toBe(true);
+  });
+});
+```
+* `describe` gruppiert zusammengehörige Test (Specs) in einer Testsuite und beschreibt diese anhand eines Stringparameters.
+* `it` ist ein einzelner Test und beinhaltet eine oder mehrere Erwartungen (expectations) mittels `expect`
+* Setup und Teardown
+  * `beforeEach` wird vor jedem Test aufgerufen
+  * `afterEach` wird nach jedem Test aufgerufen
+  * `beforeAll` wird einmalig vor dem Aufrufen aller Test ausgeführt
+  * `afterAll` wird einmalig nach dem Aufrufen aller Test ausgeführt
+
+### Deaktivieren von Tests
+* `xdescribe` deaktiviert die jeweilige Testsuite mitsamt ihrer Tests
+* `xit` deaktiviert einzelne Tests
+* `fdescribe` fokussiert die jeweilige Testsuite und führt nur diese aus
+* `fit` fokussiert einen einzelnen Test und führt nur diesen aus
 
 
 ## Probleme
