@@ -4,6 +4,14 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf [Keep a Changelog](http://keepachangelog.com/de/1.0.0/)
 und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/de/spec/v2.0.0.html).
 
+## [0.1.5] - 2019-05-08
+### Added
+- Angular Routenübersicht
+
+### Changed
+- Sphinx auf Version 2.0.1 aktualisiert
+- conf.py angepasst (add_source_parser und add_source_suffix)
+
 ## [0.1.4] - 2019-01-22
 ### Added
 - Angular Testing Grundlagen hinzugefügt
@@ -18,7 +26,7 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 
 ### Changed
 - recommonMark: 'CommonMark' (.md) anstatt 'reStructured Text' (.rst)
-- Versionierungsformat von '0.0.x' nach '0.1.x' geändert, gemäß: 
+- Versionierungsformat von '0.0.x' nach '0.1.x' geändert, gemäß:
   [Semantic Versioning FAQ](https://semver.org/#how-should-i-deal-with-revisions-in-the-0yz-initial-development-phase)
 - Reihenfolge der Indexdatei: Inhalt vor Changelog
 - Changelogauszug vergrössert
