@@ -21,6 +21,12 @@ Veraltete Pakete anzeigen `npm outdated -l`
 
 ## ngOnInit vs. Constructor
 
+## Router
+
+### Alle Routen ausgeben
+
+`console.log('configured routes: ', this.router.config);`
+
 ## ServiceWorker
 
 ### Unterverzeichnis
