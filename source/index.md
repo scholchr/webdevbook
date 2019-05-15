@@ -11,10 +11,11 @@
 Inhalt
 ------
 
-* [JavaScript](javascript.md)
 * [Angular](angular.md)
 * [CSS](css.md)
 * [Grails](grails.md)
+* [JavaScript](javascript.md)
+* [Python](python.md)
 
 
 <!-- Table Beispiel:
