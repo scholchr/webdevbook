@@ -26,6 +26,9 @@
 * `pip install pip-upgrader`
 * `pip-upgrade`
 
+## VSCode Integration
+
+* To select a specific environment, use the **Python: Select Interpreter** command from the Command Palette (`Ctrl+Shift+P`).
 
 ## [f-strings](https://www.python.org/dev/peps/pep-0498/) (3.6+)
 
