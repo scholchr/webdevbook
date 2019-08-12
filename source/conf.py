@@ -12,17 +12,19 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
+from recommonmark.transform import AutoStructify
+from recommonmark.parser import CommonMarkParser
 import os
 import sys
 import shlex
+
+import sphinx_rtd_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.parser import CommonMarkParser
-from recommonmark.transform import AutoStructify
 
 # -- General configuration ------------------------------------------------
 
@@ -37,6 +39,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
+    'sphinx_rtd_theme',
     'sphinx_markdown_tables'
 ]
 
@@ -50,8 +53,6 @@ master_doc = 'index'
 project = 'WebDev Book'
 copyright = '2018, Christian Scholten'
 author = 'Christian Scholten'
-
-github_doc_root = 'https://github.com/scholchr/webdevbook/tree/master/source/'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -79,7 +80,6 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
-
 
 
 # -- Options for HTML output ---------------------------------------------------
@@ -131,11 +131,11 @@ html_last_updated_fmt = '%d %b %Y'
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
     '**': [
-        #'about.html',
+        # 'about.html',
         'navigation.html',
-        #'relations.html',  # needs 'show_related': True theme option to display
+        # 'relations.html',  # needs 'show_related': True theme option to display
         'searchbox.html',
-        #'donate.html',
+        # 'donate.html',
     ]
 }
 
@@ -224,7 +224,6 @@ texinfo_documents = [
 ]
 
 
-
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
@@ -246,6 +245,10 @@ epub_copyright = u'2018, Christian Scholten'
 epub_exclude_files = ['search.html']
 
 # app setup hook
+
+github_doc_root = 'https://github.com/scholchr/webdevbook/tree/master/source/'
+
+
 def setup(app):
     app.add_source_parser(CommonMarkParser)
     app.add_source_suffix('.md', 'markdown')
