@@ -7,6 +7,15 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 ## Unreleased
 - Python
 
+## [0.1.6] - 2019-08-13
+### Added
+- `conf.py`: für `pigar` nötige Module in hinzugefügt
+- `python.md`: `pigar hinzugefügt`
+
+### Changed
+- `requirements.txt`: `pigar` als  Tool verwendet
+- `python.md`: Struktur verändert
+
 ## [0.1.5] - 2019-05-08
 ### Added
 - Angular Routenübersicht
