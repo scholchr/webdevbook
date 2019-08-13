@@ -7,9 +7,26 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 ## Unreleased
 - Python
 
+## [0.1.8] - 2019-08-13
+### Changed
+- `conf.py`:
+  - Struktur und Inhalt an `sphinx-quickstart` Vorlage angepasst
+  - Rechtschreibfehler korrigiert
+- `index.md`:
+  - Changelog Link verweist nun auf Github (per `eval_rst`)
+  - Changelog Include auf von 20 auf 30 Zeilen erhöht
+  - der Tabellenbeispiel-Kommentar ist nun 'Copy & Paste'-freundlicher
+
+### Removed
+- `conf.py`:
+  - `source_suffix` entfernt
+  - `sphinx.ext.todo`-Extension entfernt
+  - `sphinx.ext.viewcode`-Extension entfernt
+  - `'enable_eval_rst': True` im app hook entfernt, da es gleich dem Standardverhalten ist
+
 ## [0.1.7] - 2019-08-13
 ### Added
-  - `conf.py`: `recommonmark` als extension hinzugefügt
+  - `conf.py`: `recommonmark` als Extension hinzugefügt
 
 ### Changed
 - `conf.py`:
