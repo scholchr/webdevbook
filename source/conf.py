@@ -18,7 +18,9 @@ import os
 import sys
 import shlex
 
+import sphinx  # for pigar when generating requirments.txt
 import sphinx_rtd_theme
+import sphinx_markdown_tables  # for pigar when generating requirments.txt
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
