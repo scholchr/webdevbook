@@ -7,6 +7,24 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 ## Unreleased
 - Python
 
+## [0.1.7] - 2019-08-13
+### Added
+  - `conf.py`: `recommonmark` als extension hinzugefügt
+
+### Changed
+- `conf.py`:
+  - Anordnung der Import vereinfacht
+  - `html_static_path` auskommentiert
+  - `needs_sphinx` auf `2.1.2` gesetzt
+  - `copyright` aktualisiert
+
+### Removed
+- `conf.py`:
+  - `github_doc_root` entfernt
+  - im 'app setup hook' unter `recommonmark_config` den `url_resolver` entfernt, da er fehlerhafte Links generiert hat
+  - mehrere ungenutzte HTML Optionen entfernt
+
+
 ## [0.1.6] - 2019-08-13
 ### Added
 - `conf.py`: für `pigar` nötige Module in hinzugefügt
