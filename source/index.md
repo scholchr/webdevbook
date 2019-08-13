@@ -18,16 +18,25 @@ Inhalt
 * [Python](python.md)
 
 
-<!-- Table Beispiel:
+<!-- Tabellenbeispiel:
 | Tables        | Are           | Cool          |
 | ------------- |:-------------:| -------------:|
 | col 3         | col 2         |         col 3 |
 | is            | is            |            is |
-| left aligned  | centered      | right aligned | -->
+| left aligned  | centered      | right aligned |
+-->
+
+Changelog
+---------
 
 ```eval_rst
 .. literalinclude:: ../changelog.md
     :language: md
-    :lines: -20
+    :lines: -30
+
+`komplettes Changelog <https://github.com/scholchr/webdevbook/tree/master/changelog.md>`_.
 ```
-[komplettes Changelog](../changelog.md)
+
+<!-- broken
+[komplettes Changelog](https://github.com/scholchr/webdevbook/tree/master/changelog.md)
+-->
