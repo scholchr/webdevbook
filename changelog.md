@@ -5,7 +5,12 @@ Das Format basiert auf [Keep a Changelog](http://keepachangelog.com/de/1.0.0/)
 und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/de/spec/v2.0.0.html).
 
 ## Unreleased
-- Python
+### Added
+- `python.md`
+
+### Changed
+- `index.md`: überflüssiges Zeichen `.` im Changelog Link entfernt
+
 
 ## [0.1.8] - 2019-08-13
 ### Changed
