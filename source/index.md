@@ -34,7 +34,7 @@ Changelog
     :language: md
     :lines: -30
 
-`komplettes Changelog <https://github.com/scholchr/webdevbook/tree/master/changelog.md>`_.
+`komplettes Changelog <https://github.com/scholchr/webdevbook/tree/master/changelog.md>`_
 ```
 
 <!-- broken
