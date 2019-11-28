@@ -1,0 +1,12 @@
+site_name: WebDevBook
+theme:  readthedocs
+repo_url: https://github.com/scholchr/webdevbook/
+
+nav:
+- Home: 'index.md'
+- Chapter:
+    - 'Angular': 'angular.md'
+    - 'CSS': 'css.md'
+    - 'Grails': 'grails.md'
+    - 'JavaScript': 'javascript.md'
+    - 'Python': 'python.md'

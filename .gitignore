@@ -1,8 +1,7 @@
 .DS_Store
 
 # Sphinx documentation
-build/
+site/
 
 # Editor
-source/webdevbook.sublime-workspace
 .vscode/
