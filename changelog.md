@@ -5,11 +5,14 @@ Das Format basiert auf [Keep a Changelog](http://keepachangelog.com/de/1.0.0/)
 und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/de/spec/v2.0.0.html).
 
 ## Unreleased
+
+## [0.1.9] - 2019-11-28
 ### Added
-- `python.md`
+- `python.md` hinzugefügt
 
 ### Changed
-- `index.md`: überflüssiges Zeichen `.` im Changelog Link entfernt
+- Umstieg von Sphinx auf MkDocs
+- `angular.md`: Link zum Github Issue 19524 korrigiert
 
 
 ## [0.1.8] - 2019-08-13
