@@ -1,7 +1,3 @@
-```eval_rst
-:github_url: https://github.com/scholchr/webdevbook/tree/master/source/python.md
-```
-
 # Python
 
 ## pip
@@ -26,7 +22,8 @@
 
 ### pigar
 
-A fantastic tool to generate requirements for your Python project
+A fantastic tool to generate requirements for your Python project:
+
 * TODO: testen, ob pigar möglicherweise pip-upgrade ersetzt
 * `pigar` Standardaktion: `requirements.txt` generieren und diff ausgeben
 * `pigar -p requirements2.txt` Ausgabe in angegebener Datei speichern

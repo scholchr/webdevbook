@@ -1,7 +1,3 @@
-```eval_rst
-:github_url: https://github.com/scholchr/webdevbook/tree/master/source/grails.md
-```
-
 # Grails
 
 ## URL Mappings anzeigen

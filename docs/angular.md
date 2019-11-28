@@ -1,7 +1,3 @@
-```eval_rst
-:github_url: https://github.com/scholchr/webdevbook/tree/master/source/angular.md
-```
-
 # Angular
 
 ## Häufige Tasks
@@ -30,13 +26,13 @@ Veraltete Pakete anzeigen `npm outdated -l`
 ## ServiceWorker
 
 ### Unterverzeichnis
-* **Problem**: ServiceWorker wird nicht aufgerufen, wenn sich die Angular-App in einem Unterverzeichnis 
-(bspw. `https://dev.hksinformatik.de/webwib/`). Das Problem ist möglicherweise schon durch [Issue 19524](https://github.com/angular/angular/issues/19524>) gelöst
+* **Problem**: ServiceWorker wird nicht aufgerufen, wenn sich die Angular-App in einem Unterverzeichnis
+(bspw. `https://dev.hksinformatik.de/webwib/`). Das Problem ist möglicherweise schon durch [Issue 19524](https://github.com/angular/angular/issues/19524) gelöst
 
-* **Lösungsansatz**: In `src\app.module.ts` dem ServiceWorker explizit das Unterverzeichnis angeben: 
+* **Lösungsansatz**: In `src\app.module.ts` dem ServiceWorker explizit das Unterverzeichnis angeben:
 `ServiceWorkerModule.register('/webwib/ngsw-worker.js', ...`.
 
-* Bei einer falschen Pfadangabe erscheint die Fehlermeldung: *Uncaught (in promise) DOMException: Failed to register a 
+* Bei einer falschen Pfadangabe erscheint die Fehlermeldung: *Uncaught (in promise) DOMException: Failed to register a
 ServiceWorker: The script has an unsupported MIME type ('text/html').*
 
 ## Testing
