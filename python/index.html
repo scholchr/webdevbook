@@ -55,48 +55,46 @@
           
             <li class="toctree-l1">
 		
-    <span class="caption-text">Chapter</span>
-    <ul class="subnav">
-                <li class="">
-                    
     <a class="" href="../angular/">Angular</a>
-                </li>
-                <li class="">
-                    
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../css/">CSS</a>
-                </li>
-                <li class="">
-                    
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../grails/">Grails</a>
-                </li>
-                <li class="">
-                    
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../javascript/">JavaScript</a>
-                </li>
-                <li class=" current">
-                    
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
     <a class="current" href="./">Python</a>
     <ul class="subnav">
             
-    <li class="toctree-l3"><a href="#python">Python</a></li>
+    <li class="toctree-l2"><a href="#python">Python</a></li>
     
         <ul>
         
-            <li><a class="toctree-l4" href="#pip">pip</a></li>
+            <li><a class="toctree-l3" href="#pip">pip</a></li>
         
-            <li><a class="toctree-l4" href="#nutzliche-python-packages-systemweit-installieren">Nützliche Python Packages (systemweit installieren)</a></li>
+            <li><a class="toctree-l3" href="#nutzliche-python-packages-systemweit-installieren">Nützliche Python Packages (systemweit installieren)</a></li>
         
-            <li><a class="toctree-l4" href="#vscode-integration">VSCode Integration</a></li>
+            <li><a class="toctree-l3" href="#vscode-integration">VSCode Integration</a></li>
         
-            <li><a class="toctree-l4" href="#f-strings-36">f-strings (3.6+)</a></li>
+            <li><a class="toctree-l3" href="#f-strings-36">f-strings (3.6+)</a></li>
         
-            <li><a class="toctree-l4" href="#pathlib-34">pathlib (3.4+)</a></li>
+            <li><a class="toctree-l3" href="#pathlib-34">pathlib (3.4+)</a></li>
         
         </ul>
     
 
-    </ul>
-                </li>
     </ul>
 	    </li>
           
@@ -121,10 +119,6 @@
     <li><a href="..">Docs</a> &raquo;</li>
     
       
-        
-          <li>Chapter &raquo;</li>
-        
-      
     
     <li>Python</li>
     <li class="wy-breadcrumbs-aside">
@@ -139,16 +133,16 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="python">Python</h1>
-<h2 id="pip">pip</h2>
+                <h1 id="python">Python<a class="headerlink" href="#python" title="Permanent link">#</a></h1>
+<h2 id="pip">pip<a class="headerlink" href="#pip" title="Permanent link">#</a></h2>
 <ul>
 <li><code>pip install -r requirements.txt</code></li>
 <li><code>pip freeze &gt; requirements.txt</code></li>
 <li><code>pip install --upgrade PACKAGENAME</code></li>
 <li><code>pip list --outdated --format=freeze</code></li>
 </ul>
-<h2 id="nutzliche-python-packages-systemweit-installieren">Nützliche Python Packages (systemweit installieren)</h2>
-<h3 id="virtualenvwrapper"><a href="https://github.com/davidmarble/virtualenvwrapper-win">VirtualEnvWrapper</a></h3>
+<h2 id="nutzliche-python-packages-systemweit-installieren">Nützliche Python Packages (systemweit installieren)<a class="headerlink" href="#nutzliche-python-packages-systemweit-installieren" title="Permanent link">#</a></h2>
+<h3 id="virtualenvwrapper"><a href="https://github.com/davidmarble/virtualenvwrapper-win">VirtualEnvWrapper</a><a class="headerlink" href="#virtualenvwrapper" title="Permanent link">#</a></h3>
 <ul>
 <li>Make sure <code>C:\Python3x\Scripts</code> is in your $PATH</li>
 <li><code>pip install virtualenvwrapper-win</code></li>
@@ -161,7 +155,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="pigar">pigar</h3>
+<h3 id="pigar">pigar<a class="headerlink" href="#pigar" title="Permanent link">#</a></h3>
 <p>A fantastic tool to generate requirements for your Python project:</p>
 <ul>
 <li>TODO: testen, ob pigar möglicherweise pip-upgrade ersetzt</li>
@@ -171,11 +165,11 @@
 <li><code>pigar -c</code> überprüft <code>requirements.txt</code> auf Aktualisierungen</li>
 <li><code>pigar -u</code> pigar Datenbank aktualisieren</li>
 </ul>
-<h2 id="vscode-integration">VSCode Integration</h2>
+<h2 id="vscode-integration">VSCode Integration<a class="headerlink" href="#vscode-integration" title="Permanent link">#</a></h2>
 <ul>
 <li>To select a specific environment, use the <strong>Python: Select Interpreter</strong> command from the Command Palette (<code>Ctrl+Shift+P</code>).</li>
 </ul>
-<h2 id="f-strings-36"><a href="https://www.python.org/dev/peps/pep-0498/">f-strings</a> (3.6+)</h2>
+<h2 id="f-strings-36"><a href="https://www.python.org/dev/peps/pep-0498/">f-strings</a> (3.6+)<a class="headerlink" href="#f-strings-36" title="Permanent link">#</a></h2>
 <p>Anstatt <code>format</code>:</p>
 <pre><code class="python">user = &quot;Jane Doe&quot;
 action = &quot;buy&quot;
@@ -184,7 +178,7 @@ print(log_message)
 # User Jane Doe has logged in and did an action buy.
 </code></pre>
 
-<h2 id="pathlib-34"><a href="https://docs.python.org/3/library/pathlib.html">pathlib</a> (3.4+)</h2>
+<h2 id="pathlib-34"><a href="https://docs.python.org/3/library/pathlib.html">pathlib</a> (3.4+)<a class="headerlink" href="#pathlib-34" title="Permanent link">#</a></h2>
 <ul>
 <li>Anstatt <code>os.path</code></li>
 <li><a href="https://treyhunner.com/2018/12/why-you-should-be-using-pathlib/">Why you should be using pathlib</a></li>
