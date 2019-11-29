@@ -2,9 +2,12 @@ site_name: WebDevBook
 theme:  readthedocs
 repo_url: https://github.com/scholchr/webdevbook/
 
+markdown_extensions:
+    - toc:
+        permalink: "#"
+
 nav:
-- Home: 'index.md'
-- Chapter:
+    - Home: 'index.md'
     - 'Angular': 'angular.md'
     - 'CSS': 'css.md'
     - 'Grails': 'grails.md'
