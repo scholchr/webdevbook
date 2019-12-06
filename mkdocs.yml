@@ -9,9 +9,11 @@ markdown_extensions:
 nav:
     - Home: 'index.md'
     - Angular:
-        - 'General': angular/index.md
+        - 'Allgemein': angular/index.md
         - 'Router': angular/router.md
     - 'CSS': 'css.md'
+    - Git:
+        - 'Allgemein': git/index.md
     - 'Grails': 'grails.md'
     - 'JavaScript': 'javascript.md'
     - 'Python': 'python.md'
