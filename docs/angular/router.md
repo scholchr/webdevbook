@@ -1,5 +1,25 @@
 # Router
 
-## Alle Routen ausgeben
+## Grundlagen
 
-`console.log('configured routes: ', this.router.config);`
+### Routingstrategien
+
+### Routen ausgeben
+
+```typescript
+import {Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+
+@Component(...)
+class ExampleComponent implements OnInit {
+
+  constructor (private router: Router) {
+  }
+
+   ngOnInit() {
+     console.log('Configured routes: ', this.router.config);
+   }
+}
+```
+
