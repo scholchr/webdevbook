@@ -1,7 +1,8 @@
 .DS_Store
 
-# Sphinx documentation
+# Build
 site/
 
 # Editor
 .vscode/
+.code-workspace
