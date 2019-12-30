@@ -84,6 +84,14 @@
             
     <li class="toctree-l3"><a href="#git">Git</a></li>
     
+        <ul>
+        
+            <li><a class="toctree-l4" href="#key-concepts">Key Concepts</a></li>
+        
+            <li><a class="toctree-l4" href="#haufige-probleme">Häufige Probleme</a></li>
+        
+        </ul>
+    
 
     </ul>
                 </li>
@@ -145,6 +153,19 @@
             <div class="section">
               
                 <h1 id="git">Git<a class="headerlink" href="#git" title="Permanent link">#</a></h1>
+<h2 id="key-concepts">Key Concepts<a class="headerlink" href="#key-concepts" title="Permanent link">#</a></h2>
+<h3 id="three-and-a-half-states-of-git">Three (and a half) States of Git<a class="headerlink" href="#three-and-a-half-states-of-git" title="Permanent link">#</a></h3>
+<ul>
+<li>Working Directory</li>
+<li>Staging area: a pre-commit holding are</li>
+<li>Commit: Git repository (history)</li>
+<li>(Remote repository)</li>
+</ul>
+<h2 id="haufige-probleme">Häufige Probleme<a class="headerlink" href="#haufige-probleme" title="Permanent link">#</a></h2>
+<h3 id="eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-untracked-file-auf-todo-mit-bereits-erfassten-dateien-testen">Eine bestehende Datei oder ein Verzeichnis wurde per <code>.gitignore</code> ignoriert, taucht aber noch im Index als <code>untracked file</code> auf. TODO: mit bereits erfassten Dateien testen!<a class="headerlink" href="#eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-untracked-file-auf-todo-mit-bereits-erfassten-dateien-testen" title="Permanent link">#</a></h3>
+<p>https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore</p>
+<p><code>.gitignore</code> sorgt nur dafür, dass keine neu hinzugefügten Dateien von Git erfasst werden. Bereits erfasst Dateien können mit dem Befehl <code>git rm --cached &lt;file&gt;</code> aus dem Index entfernt werden. Für Verzeichnisse lautet der Befehl <code>git rm -r --cached &lt;folder&gt;</code></p>
+<p>Achtung: Sollte die Datei bereits comittete sein entfernt der <code>git rm</code> Befehl zwar keine Dateien aus dem lokalen Working Directory, wohl aber aus dem Repository</p>
               
             </div>
           </div>
