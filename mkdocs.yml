@@ -1,5 +1,5 @@
 site_name: WebDevBook
-theme:  readthedocs
+theme: readthedocs
 repo_url: https://github.com/scholchr/webdevbook/
 
 markdown_extensions:
