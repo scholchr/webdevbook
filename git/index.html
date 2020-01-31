@@ -162,10 +162,13 @@
 <li>(Remote repository)</li>
 </ul>
 <h2 id="haufige-probleme">Häufige Probleme<a class="headerlink" href="#haufige-probleme" title="Permanent link">#</a></h2>
-<h3 id="eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-untracked-file-auf-todo-mit-bereits-erfassten-dateien-testen">Eine bestehende Datei oder ein Verzeichnis wurde per <code>.gitignore</code> ignoriert, taucht aber noch im Index als <code>untracked file</code> auf. TODO: mit bereits erfassten Dateien testen!<a class="headerlink" href="#eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-untracked-file-auf-todo-mit-bereits-erfassten-dateien-testen" title="Permanent link">#</a></h3>
-<p>https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore</p>
+<h3 id="eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-untracked-file-auf">Eine bestehende Datei oder ein Verzeichnis wurde per <code>.gitignore</code> ignoriert, taucht aber noch im Index als <code>untracked file</code> auf.<a class="headerlink" href="#eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-untracked-file-auf" title="Permanent link">#</a></h3>
+<p><a href="https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore">SO: How to make Git “forget” about a file that was tracked but is now in .gitignore?</a></p>
 <p><code>.gitignore</code> sorgt nur dafür, dass keine neu hinzugefügten Dateien von Git erfasst werden. Bereits erfasst Dateien können mit dem Befehl <code>git rm --cached &lt;file&gt;</code> aus dem Index entfernt werden. Für Verzeichnisse lautet der Befehl <code>git rm -r --cached &lt;folder&gt;</code></p>
-<p>Achtung: Sollte die Datei bereits comittete sein entfernt der <code>git rm</code> Befehl zwar keine Dateien aus dem lokalen Working Directory, wohl aber aus dem Repository</p>
+<p>Achtung: Sollte die Datei bereits comittet sein, entfernt der <code>git rm</code> Befehl zwar keine Dateien aus dem lokalen Working Directory, wohl aber aus dem Repository!</p>
+<h3 id="eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-modified-oder-modified-deleted-auf">Eine bestehende Datei oder ein Verzeichnis wurde per <code>.gitignore</code> ignoriert, taucht aber noch im Index als <code>modified</code> oder <code>modified (deleted)</code> auf.<a class="headerlink" href="#eine-bestehende-datei-oder-ein-verzeichnis-wurde-per-gitignore-ignoriert-taucht-aber-noch-im-index-als-modified-oder-modified-deleted-auf" title="Permanent link">#</a></h3>
+<p><a href="https://stackoverflow.com/questions/655243/ignore-modified-but-not-committed-files-in-git">SO: Ignore modified (but not committed) files in git?</a></p>
+<p>Lösung: <code>git update-index --assume-unchanged dir-im-removing/</code> bzw. <code>git update-index --assume-unchanged dir/file.ext</code></p>
               
             </div>
           </div>
