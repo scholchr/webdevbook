@@ -6,6 +6,16 @@ und dieses Projekt hält sich an [Semantic Versioning](http://semver.org/lange/d
 
 ## Unreleased
 
+
+## [0.1.10] - 2020-03-05
+### Added
+- Git: `.gitgnore` Probleme und Lösungen hinzugefügt
+- Javascript: 'function call' vs. 'arrow functions' und 'destr assignment' hinzugefügt
+
+### Changed
+- MkDocs Abhängigkeit von Version 1.0.4 auf 1.1 erhöht
+
+
 ## [0.1.9] - 2019-11-28
 ### Added
 - `python.md` hinzugefügt
