@@ -7,13 +7,15 @@ markdown_extensions:
         permalink: "#"
 
 nav:
-    - Home: 'index.md'
+    - 'Home': 'index.md'
     - Angular:
         - 'Allgemein': angular/index.md
         - 'Router': angular/router.md
-    - 'CSS': 'css.md'
     - Git:
         - 'Allgemein': git/index.md
-    - 'Grails': 'grails.md'
-    - 'JavaScript': 'javascript.md'
-    - 'Python': 'python.md'
+        - 'SmartGit': git/smartgit.md
+    - Sonstiges:
+        - 'CSS': 'css.md'
+        - 'Grails': 'grails.md'
+        - 'JavaScript': 'javascript.md'
+        - 'Python': 'python.md'
