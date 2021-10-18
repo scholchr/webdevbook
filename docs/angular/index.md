@@ -4,6 +4,9 @@
 
 Angular Framework aktualisieren `ng update`
 
+Angular auf letzte Patch Version innerhalb eines Major Releases aktualisieren:
+`ng update @angular/cli@^9 @angular/core@^9`
+
 Veraltete Pakete anzeigen `npm outdated -l`
 
 ## Angular Component Collections
@@ -14,6 +17,13 @@ Veraltete Pakete anzeigen `npm outdated -l`
 * [Material](https://material.io)
     * [Floating Action Button](https://material.io/components/web/catalog/buttons/floating-action-buttons/)
     * [Floating Action Button Guideline](https://material.io/guidelines/components/buttons-floating-action-button.html)
+
+## pipe(share)
+
+Alle Subscriber sollen denselben Datenstand haben.
+Ohne Share würde er für jeden neuen Subscriber ein neuer Request erstellt werden.
+
+## ngModel testen: mittels fakeAsync + tick
 
 ## ngOnInit vs. Constructor
 
