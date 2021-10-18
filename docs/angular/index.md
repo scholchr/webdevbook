@@ -42,7 +42,7 @@ ServiceWorker: The script has an unsupported MIME type ('text/html').*
 ## Testing
 
 ### Grundaufbau
-```
+```typescript
 describe("A suite", function() {
   it("contains spec with an expectation", function() {
     expect(true).toBe(true);
