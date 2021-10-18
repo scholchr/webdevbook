@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3cc8b0dcb503ad59c00e3c0f863934577fa8ab5983e3dd5b41befa9af2cf3d49"
+            "sha256": "5032725f41528e0f96cc696c93f0b000514075d863616884f348bddb088ef16f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -136,8 +136,24 @@
                 "sha256:89f5a094764381cda656af4298727c9f53dc3e602983087e1fe96ea1df24f4c1",
                 "sha256:a1fa8c2d0c1305d7fc2b9d9f607c71778572a8b110fb26642aa00296c9e6d072"
             ],
-            "index": "pypi",
+            "markers": "python_version >= '3.6'",
             "version": "==1.2.3"
+        },
+        "mkdocs-material": {
+            "hashes": [
+                "sha256:6a9c5a2f18a39ac0b6af73d23c452cdb1f9a07bf6365d43ee54cb796b1d2c7eb",
+                "sha256:9cc0ea54933322792855150ffb89401ff4eaf7737aadca5155fa679195ad803a"
+            ],
+            "index": "pypi",
+            "version": "==7.3.4"
+        },
+        "mkdocs-material-extensions": {
+            "hashes": [
+                "sha256:a82b70e533ce060b2a5d9eb2bc2e1be201cf61f901f93704b4acf6e3d5983a44",
+                "sha256:bfd24dfdef7b41c312ede42648f9eb83476ea168ec163b613f9abd12bbfddba2"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==1.0.3"
         },
         "packaging": {
             "hashes": [
@@ -146,6 +162,22 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==21.0"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380",
+                "sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6"
+            ],
+            "markers": "python_version >= '3.5'",
+            "version": "==2.10.0"
+        },
+        "pymdown-extensions": {
+            "hashes": [
+                "sha256:01e4bec7f4b16beaba0087a74496401cf11afd69e3a11fe95cb593e5c698ef40",
+                "sha256:430cc2fbb30cef2df70edac0b4f62614a6a4d2b06462e32da4ca96098b7c1dfb"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==9.0"
         },
         "pyparsing": {
             "hashes": [
