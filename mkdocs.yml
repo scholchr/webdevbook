@@ -2,6 +2,7 @@ site_name: WebDevBook
 repo_url: https://github.com/scholchr/webdevbook/
 
 theme:
+    language: de
     name: material
     features:
         - navigation.instant
@@ -20,12 +21,18 @@ theme:
 
 
 markdown_extensions:
+    - abbr
+    - admonition
     - toc:
         permalink: "#"
-    - pymdownx.highlight
-    - pymdownx.superfences
     - pymdownx.arithmatex:
           generic: true
+    - pymdownx.highlight
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.snippets
 
 
 extra_javascript:
