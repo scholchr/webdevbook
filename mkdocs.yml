@@ -51,6 +51,8 @@ nav:
         - 'SmartGit': git/smartgit.md
     - IuF:
         - 'Allgemein': iuf/index.md
+    - Spring:
+        - 'Allgemein': spring/index.md
     - Sonstiges:
         - 'CSS': 'css.md'
         - 'Grails': 'grails.md'
