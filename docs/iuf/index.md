@@ -37,22 +37,32 @@ Grundsätzlich gilt:
 * je länger die Lebensdauer — desto geringer der Einfluss des Restwert­s
 
 #### Barwertermittlung
+
 $Z_0 = Z_t \cdot (1+i)^{-t} = \frac{Z_t}{(1+i)^t}$
 
 Hierbei sind:
 
 * $Z_0$ = Barwert einer Zahlung zum Zeitpunkt $t$ im Bezugszeitpunkt $t_0$ (heute)
-* $T$ = Zeitpunkt der Zahlung, wobei gilt $t>0$
+* $t$ = Zeitpunkt der Zahlung, wobei gilt $t>0$
 * $Z_t$ = zuküngtige (Ein- oder Aus-)Zahlung zum Zeitpunkt $t$
-* $I$ = Zinssatz (entspricht absolutem Wert des Zinsfußes)
+* $i$ = Zinssatz (entspricht absolutem Wert des Zinsfußes)
 
-Den Ausdruck $(1+i)^{-t}$ bzw. $\frac{1}{(1+i)^t}$ bezeichnat man als **Diskontierungs-** oder **Abzinsungsfaktor**
+Den Ausdruck $(1+i)^{-t}$ bzw. $\frac{1}{(1+i)^t}$ bezeichnet man als **Diskontierungs-** oder Abzinsungsfaktor
 
+#### Zeitwertermittlung
 
-!!! example
+Wenn der Bezugszeitpunkt vor der Zahlung, aber nach dem heutigen Tag ($t_0$) liegt, bezeichnet man den Wert der zukünftigen
+Zahlung als Zeitwert; dieser wird wie folgt ermittelt:
 
-    TEst
-    Test
+$Z_b = Z_t \cdot (1+i)^{-j-b} = \frac{Z_t}{(1+i)^{j-b}}$
 
+Hierbei sind:
+
+* $Z_b$ = Zeitwert einer Zahlung zum Zeitpunkt $t$ im Bezugszeitpunkt $t_b$
+* $t_b$ = Bezugszeitpunkt $b$ mit $j>b>0$
+* $t_j$ = Zeitpunkt der Zahlung
+* $Z_t$ = zukünftige (Ein- oder Aus-)Zahlung zum zeitpunkt $t$
+* $i$ = Zinssatz
+*
 
 --8<-- "includes/glossar_iuf.md"
