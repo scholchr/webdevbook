@@ -49,6 +49,8 @@ nav:
     - Git:
         - 'Allgemein': git/index.md
         - 'SmartGit': git/smartgit.md
+    - IntelliJ:
+        - 'Allgemein': intellij/index.md
     - IuF:
         - 'Allgemein': iuf/index.md
     - Spring:
