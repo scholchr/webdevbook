@@ -45,17 +45,18 @@ extra_javascript:
 nav:
     - 'Home': 'index.md'
     - Angular:
-        - 'Allgemein': angular/index.md
+        - 'Angular': angular/index.md
         - 'Router': angular/router.md
     - Git:
-        - 'Allgemein': git/index.md
+        - 'Git': git/index.md
         - 'SmartGit': git/smartgit.md
     - IntelliJ:
-        - 'Allgemein': intellij/index.md
+        - 'IntelliJ': intellij/index.md
     - IuF:
-        - 'Allgemein': iuf/index.md
+        - 'Investition und Finanzierung': iuf/index.md
+        - 'Easy Decision Schlüsselbegriffe': iuf/ed_schluesselbegriffe.md
     - Spring:
-        - 'Allgemein': spring/index.md
+        - 'Spring': spring/index.md
     - Sonstiges:
         - 'CSS': 'css.md'
         - 'Grails': 'grails.md'
