@@ -2,7 +2,7 @@
 
 ## Java Importe sortieren
 
-Settings (Strg + Alt +S) Editor -> Code Style -> Java -> Imports:
+Settings (++ctrl+alt+s++) Editor --> Code Style --> Java --> Imports:
 
 1. `import all other imports`
 2. `< blank line >`

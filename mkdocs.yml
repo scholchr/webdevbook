@@ -28,6 +28,7 @@ markdown_extensions:
     - pymdownx.arithmatex:
           generic: true
     - pymdownx.highlight
+    - pymdownx.keys
     - pymdownx.smartsymbols
     - pymdownx.superfences
     - pymdownx.tasklist:
