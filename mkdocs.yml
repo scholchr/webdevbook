@@ -54,7 +54,7 @@ nav:
         - 'IntelliJ': intellij/index.md
     - IuF:
         - 'Investition und Finanzierung': iuf/index.md
-        - 'Easy Decision Schlüsselbegriffe': iuf/ed_schluesselbegriffe.md
+        - 'Schlüsselbegriffe': iuf/schluesselbegriffe.md
     - Spring:
         - 'Spring': spring/index.md
     - Sonstiges:
